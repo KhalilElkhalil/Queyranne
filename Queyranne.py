@@ -189,7 +189,7 @@ def QUEYRANNE(SS, F):
 
 
     #  Once we have the list of candidates, we return the best one
-    max_value = -1000
+    max_value = -np.Inf
     subset_opt = []
     cluster_max = 0
     partition_value = 0
